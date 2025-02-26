@@ -9,8 +9,8 @@ public class RotationAleatoire : MonoBehaviour
         // Rotation completement aleatoire
         // transform.rotation = Random.rotation;
 
-        // Rotation aléeatore entre une rangé des valeurs
-        float rotationY = Random.Range(-180f, 180f);
+        // Rotation alï¿½eatore entre une rangï¿½ des valeurs
+        float rotationY = Random.Range(0f, 360f);
         transform.Rotate(0, rotationY, 0,Space.World);
     }
 }
